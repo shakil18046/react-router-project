@@ -1,0 +1,22 @@
+.nav-link {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-link:not(:last-child) {
+  margin-right: 10px;
+}
+.nav-link-active:not(:last-child) {
+  margin-right: 10px;
+}
+.nav-link-active {
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav {
+  padding: 20px 0;
+  text-align: center;
+}
