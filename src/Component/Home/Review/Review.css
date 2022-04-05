@@ -1,8 +1,19 @@
-
-.short-review-wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.short-review-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.review-heading{
-    text-align: center;
+.review-heading {
+  text-align: center;
+}
+.btn-wrapper {
+  text-align: center;
+}
+.btn-wrapper a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  padding: 13px 30px;
+  background-color: antiquewhite;
+  margin: 20px 0 40px 0;
+  display: inline-block;
 }

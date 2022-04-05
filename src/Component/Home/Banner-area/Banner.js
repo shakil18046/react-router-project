@@ -6,14 +6,18 @@ const Banner = () => {
     <div className="Hero-area">
       <div className="hero-content-wrapper">
         <h1 className="Hero-area-heading">
-          Best Vloging Camera in Reasonable Budget
+          Best racing bike in Reasonable Budget
         </h1>
         <p className="Hero-area-paragraph">
-          The Sony ZV-E10 is a great, lightweight vlogging camera with a fully
-          articulating screen and impressive video quality at up to 4K
-          resolution (30fps). Its size makes it a great option for anyone
-          looking for a grab-and-shoot camera, and Sony offers a host of compact
-          lenses to help you really get the most out of it
+          The Kawasaki Ninja H2R has been in the headlines for being one of a
+          kind. The Japanese brand took more than three years to design the
+          Kawasaki Ninja H2, which is the predecessor of the H2R. When you
+          analyse the speed and specifications of Ninja H2, you feel this is
+          probably the best there is. The Kawasaki superbike is not a road bike
+          but is limited to only tracks because of its mind-boggling
+          specifications. With a 1000cc engine that produces power of 310 bhp at
+          14000 rpm and a peak torque of 165 Nm at 12500 rpm, this is an
+          untamable beast controlled only by its superior top-quality brakes.
         </p>
         <button>Live demo</button>
       </div>
