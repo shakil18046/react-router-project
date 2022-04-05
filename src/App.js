@@ -8,10 +8,16 @@ import Dashboard from "./Component/Dashboard/Dashboard";
 import Blogs from "./Component/Blogs/Blogs";
 import About from "./Component/About/About";
 import Notfound from "./Component/NotFound/Notfound";
+import { createContext } from "react";
+import useReview from "./Component/Hook/Hook";
 
+export const countContext = createContext();
 function App() {
+
+  const [user, userState] = useReview(); 
   return (
     <div className="App">
+      <countContext.Provider value={user}>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -21,6 +27,7 @@ function App() {
         <Route path="/About" element={<About></About>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
+      </countContext.Provider>
     </div>
   );
 }
