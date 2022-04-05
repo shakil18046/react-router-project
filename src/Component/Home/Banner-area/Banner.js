@@ -22,7 +22,7 @@ const Banner = () => {
         <button>Live demo</button>
       </div>
       <div className="hero-image-wrapper">
-        <img src={bike}></img>
+        <img src={bike} alt=""></img>
       </div>
     </div>
   );

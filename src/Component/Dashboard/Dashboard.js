@@ -1,19 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Chart from "./Chart";
 import {
   BarChart,
-  ComposedChart,
-  Line,
-  Area,
-  Scatter,
   Bar,
-  Cell,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from "recharts";
 const Dashboard = () => {
   const [chart, setChart] = useState([]);
